@@ -1,0 +1,25 @@
+.w-main{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.img-one{
+    width: 100%;
+    margin: 40px 50px 150px 50px;
+}
+
+.img-duck{
+    width: 100%;
+}
+
+.work-one{
+    margin: 40px 50px 150px 50px;
+    font-family: 'Niramit', sans-serif;
+    color: black;
+    font-size: 25px;
+    font-weight:400;
+    letter-spacing: 0.1ch;
+    line-height: 200%;
+    text-align: left;
+}

@@ -1,0 +1,37 @@
+
+<meta name="viewport" content="width=device-width,initial-scale=1.0">
+<div class="fixed-top pos-f-t">
+
+    <nav class="navbar navbar-light bg-white">
+        <div> <a routerLink="" (click)="toggleHome()">home</a></div>
+        <button (click)="toggleMenu()" class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+      </nav>
+    </div>
+      <app-white [@slideWhite]="whiteState"></app-white> 
+<div class="contain" [@slideInOut]="menuState" >
+    <div class="menu-main">
+        <div class="menu-img">
+            <img src="/assets/choco.jpg"  style="margin-top: 70px; height:100vh"/>
+        </div>
+        <div class="menu-list">
+    <ul>
+    
+      <li (click)="toggleMenu()">     <a routerLink="/about" >About</a></li>
+    
+      <li class="tes" (click)="toggleMenu()"> <a routerLink="/works">Projects</a></li>
+      <li>Contact</li>
+      <li>Menu Item</li>
+      <li>Menu Item</li>
+      <li>Menu Item</li>
+    </ul>
+    </div>
+    </div>
+  
+    </div>
+  
+   
+
+  <router-outlet></router-outlet>
+  <app-footer></app-footer>

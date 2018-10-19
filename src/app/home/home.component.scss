@@ -1,0 +1,251 @@
+@import url('https://fonts.googleapis.com/css?family=Great+Vibes&subset=latin-ext');
+
+
+.zoom{
+    overflow: hidden;
+    padding-bottom: 55%;
+    width: 100%;
+    }
+
+
+    .zoom img{
+        position: fixed;
+        top: 0%;
+        left: 50%;
+        transform: translateX(-50%);
+        }
+
+
+        main{
+            padding: 14% 0;
+            position: relative;
+            // background: #f5f5f5;
+            box-shadow: 0px -10px 60px rgba(0,0,0,0.25);
+        } 
+
+        .over-img{
+            position: fixed;
+            top: 10%;
+            left: 10%;
+           width: 20%;
+        }
+
+        .overimg{
+            font-family: 'Balqis', ;
+            letter-spacing: 3px;
+            font-weight: bold;
+            font-size: 2.5vw;
+            position: absolute;
+            top: 10%;
+            left: 50%;
+           
+        }
+
+        .sticky {
+            position: fixed;
+            top: 10%;
+        
+          }
+          
+          .sticky + .content {
+            padding-top: 15%;
+          }
+
+          .ipd {
+            position: relative;
+            text-align: center;
+            color: black;
+        }
+
+
+        .parent {
+            position: relative;
+            display: block;
+           
+        }
+
+
+  
+          
+          .mouse_scroll {
+              display: block;
+              position: absolute;
+            margin-right: 20px;
+              width: 24px;
+              height: 100px;
+              top: 1%;
+              left: 90%;
+             
+              margin-top: 325px;
+          }
+          
+          
+          .m_scroll_arrows
+          {
+            display: block;
+            width: 5px;
+            height: 5px;
+            -ms-transform: rotate(45deg); /* IE 9 */
+            -webkit-transform: rotate(45deg); /* Chrome, Safari, Opera */
+            transform: rotate(45deg);
+             
+            border-right: 2px solid black;
+            border-bottom: 2px solid black;
+            margin: 0 0 3px 4px;
+            
+            width: 16px;
+            height: 16px;
+          }
+          
+          
+          .unu
+          {
+            margin-top: 1px;
+          }
+          
+          .unu, .doi, .trei
+          {
+              -webkit-animation: mouse-scroll 1s infinite;
+              -moz-animation: mouse-scroll 1s infinite;
+          }
+          
+          .unu
+          {
+            -webkit-animation-delay: .1s;
+            -moz-animation-delay: .1s;
+            -webkit-animation-direction: alternate;
+          }
+          
+          .doi
+          {
+            -webkit-animation-delay: .2s;
+            -moz-animation-delay: .2s;
+            -webkit-animation-direction: alternate;
+            margin-top: -6px;
+          }
+          
+          .trei
+          {
+            -webkit-animation-delay: .3s;
+            -moz-animation-delay: .3s;
+            -webkit-animation-direction: alternate;
+            margin-top: -6px;
+          }
+          
+          
+          
+          
+          .mouse
+          {
+          height: 42px;
+          width: 24px;
+            border-radius: 14px;
+            transform: none;
+            border: 2px solid black;
+            top: 170px;
+          }
+          
+          .wheel
+          {
+            height: 5px;
+            width: 2px;
+            display: block;
+            margin: 5px auto;
+            background: black;
+            position: relative;
+            
+            height: 4px;
+            width: 4px;
+            border: 2px solid black;
+            -webkit-border-radius: 8px;
+                    border-radius: 8px;
+            
+          
+          }
+          
+          .wheel
+          {
+            -webkit-animation: mouse-wheel 0.6s linear infinite;
+            -moz-animation: mouse-wheel 0.6s linear infinite;
+          }
+          
+          
+          
+          @-webkit-keyframes mouse-wheel
+          {
+             0% {
+              opacity: 1;
+              -webkit-transform: translateY(0);
+              -ms-transform: translateY(0);
+              transform: translateY(0);
+            }
+          
+            100% {
+              opacity: 0;
+              -webkit-transform: translateY(6px);
+              -ms-transform: translateY(6px);
+              transform: translateY(6px);
+            }
+          }
+          
+          @-moz-keyframes mouse-wheel
+          {
+            0% { top: 1px; }
+            25% { top: 2px; }
+            50% { top: 3px;}
+            75% { top: 2px;}
+            100% { top: 1px;}
+          }
+          
+          @-webkit-keyframes mouse-scroll {
+          
+            0%   { opacity: 0;}
+            50%  { opacity: .5;}
+            100% { opacity: 1;}
+          }
+          @-moz-keyframes mouse-scroll {
+          
+            0%   { opacity: 0; }
+            50%  { opacity: .5; }
+            100% { opacity: 1; }
+          }
+          @-o-keyframes mouse-scroll {
+          
+            0%   { opacity: 0; }
+            50%  { opacity: .5; }
+            100% { opacity: 1; }
+          }
+          @keyframes mouse-scroll {
+          
+            0%   { opacity: 0; }
+            50%  { opacity: .5; }
+            100% { opacity: 1; }
+          }
+          
+
+        @media screen and (min-width: 360px) and (min-height: 640px) and (-webkit-device-pixel-ratio: 3) {
+            .overimg{
+                font-family: 'Kaushan Script', cursive;
+                font-size:2vw;
+                position: absolute;
+                top: 20%;
+                left: 50%;
+               
+            }
+    
+            .sticky {
+                position: fixed;
+                top: 5%;
+            
+              }
+
+              
+            }
+
+
+
+.navbar{
+    justify-content: flex-end;
+}
+
+

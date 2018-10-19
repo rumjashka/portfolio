@@ -1,0 +1,79 @@
+
+
+
+// :host {
+//     background: #fff;
+//     color: black;
+//     position: fixed;
+//     left: auto;
+//     top: 0;
+//     right: 0;
+//     bottom: 0;
+//     width: 20%;
+//     min-width: 100%;
+//     z-index: 1;
+//     font-family: 'Niramit', sans-serif;
+//   }
+  
+//   ul {
+//     font-size: 18px;
+//     line-height: 3;
+//     font-weight: 400;
+//     list-style: none;
+//     position: absolute;
+//     left: 20%;
+//     top: 25%;
+//     text-align: center;
+//     width: 100%
+//   }
+
+//   .menu-main{
+//       display: flex;
+//       flex-direction: row;
+//       justify-content: space-between; 
+//   }
+
+
+//   .main-cover{
+//       position: relative;
+//   }
+
+//   .contain {
+//     position: relative;
+
+//   }
+//   .overlay {
+//     position: absolute;
+//     background-color: #fff;
+//     overflow: hidden;
+//     width: 0;
+//     height: 100%;
+  
+//   }
+  
+
+//   .fullHeight {
+//     bottom: 0;
+//     left: 0;
+//     right: 0;
+//     width: 50%;
+//     transition: .5s ease;
+//     animation:fade 8s;
+// }
+// //   .contain:hover .overlay {
+// //     width: 100%;
+// //   }
+//   @media screen and (min-width: 360px) and (min-height: 640px) and (-webkit-device-pixel-ratio: 3) {
+//     ul {
+//         font-size: 18px;
+//         line-height: 3;
+//         font-weight: 400;
+//         list-style: none;
+//         position: absolute;
+//         left: 0%;
+//         padding: 0;
+//         top: 25%;
+//         text-align: center;
+
+//   }
+// }
